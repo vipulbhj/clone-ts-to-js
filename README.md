@@ -1,4 +1,6 @@
-A simple NodeJS script for cloning an existing Typescript project and create a new Javascipt project.
+A trivial Node script for cloning an existing Typescript project, into a Javascipt replica.
+
+Might be useful if you quickly want to get ride of all the typescript related code from a project and clone it into a javascript replica.
 
 ## Usage:
 
