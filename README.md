@@ -8,11 +8,11 @@ Might be useful if you quickly want to get ride of all the typescript related co
 
 ### Example:
 
-`node index.js ~/Projects/DemoTS ~/Projects/DemoJS`
+`node index.js ~/Projects/DemoTS/ ~/Projects/DemoJS/`
 
-`DemoTS` directory needs to exists, but `DemoJS` directory is optional, it may or mayn't exist. If the directory doesn't exist, it will be created by the script.
+`DemoTS` and `DemoJS` directories need to exist and you need to pass absolute paths to both the directories.
 
-**Note: The script in it's current incarnation doesn't clean the contents of the desitnaton directory upon re-runs, you will have to clean the contents of the directory yourself, if it already contains some data.**
+**Note: The script in it's current incarnation doesn't clean the contents of the desitnaton directory upon re-runs, you will have to clean the contents of the directory yourself, if it already contains some data. To ensure correctness, make sure the destination directory is empty.**
 
 **Just Run**
 `rm -rf /absolute/path/to/destination/`
